@@ -1,7 +1,7 @@
 const loginPage=require('../Modal/LoginPage')
 const properties=require("../../config")
 const logoAdd=require("../Modal/LogoAdd")
-const createServy=require('../Modal/CreateNewServey')
+
 const allureReporter= require('@wdio/allure-reporter').default
 const wrapperClass=require("../TestCase/WrapperClass")
 
