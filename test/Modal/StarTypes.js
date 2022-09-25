@@ -82,7 +82,7 @@ class StarType{
         await browser.pause(2000)
         await utility.performSetValues(this.oneStar,value2)
         await utility.performClick(this.saveQue);
-        // await browser.pause(2000)
+        await browser.pause(2000)
         const text=await this.labelVerifaction.isDisplayed();
         return text;
     }

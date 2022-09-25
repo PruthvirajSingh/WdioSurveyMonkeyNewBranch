@@ -13,7 +13,7 @@ class PageTitle{
         return $('.pageTitleLabel')
     }
     get pageTitleHeadder(){
-        return $(`#pageTitle`)
+        return $("#pageTitle")
     }
     get pageDescripation(){
         return $(`#pageSubtitle`)
@@ -32,6 +32,9 @@ class PageTitle{
     }
     get valuesAddedOrNotValidate(){
         return $("span.page-title.user-generated")
+    }
+    get textPageTitle(){
+        return $(".pageTitleLabel")
     }
     async addtitle(value1,value2){
         await this.pageTitleButtonClick1();
@@ -55,8 +58,11 @@ async pageTitleButtonClick3(){
 }
 async titleAddForPage(value1,value2){
     // await this.pageTitleLable.waitForDisplayed();
+    await this.textPageTitle.waitForDisplayed()
+    await this.pageTitleHeadder.waitForDisplayed({timeout:20000})
     await utility.performSetValues(this.pageTitleHeadder,value1)
     await utility.performSetValues(this.pageDescripation,value2)
+    await this.saveButton.waitForClickable({timeout:20000})
     await utility.performClick(this.saveButton)
     const text= await this.textAddVerfiy.isDisplayed();
     return text;
@@ -68,9 +74,11 @@ async clcikOnEditButton(){
 async maximumTextThan100Characters(value1){
     // await this.pageTitleLable.waitForDisplayed();
     for (let index =value1; index <=101; index++) {
+    await this.textPageTitle.waitForDisplayed()
+    await this.pageTitleHeadder.waitForDisplayed({timeout:20000})
     await this.pageTitleHeadder.addValue(index)
     }
-    
+    await this.saveButton.waitForClickable({timeout:20000})
     await utility.performClick(this.saveButton);
     await this.valuesAddedOrNotValidate.waitForDisplayed();
     const text= await this.valuesAddedOrNotValidate.getText();

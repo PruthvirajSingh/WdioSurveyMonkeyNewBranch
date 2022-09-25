@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663933031081' stop='1663933095569'>
+    <name>verify that user is able to apply page randomization</name>
+    <title>verify that user is able to apply page randomization</title>
+    <test-cases>
+        <test-case start='1663933031082' status='broken' stop='1663933095569'>
+            <name>Verify when user click on the page randomization the page is to be randomized</name>
+            <title>Verify when user click on the page randomization the page is to be randomized</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1663933031083' status='broken' stop='1663933084678'>
+                    <name>maximized the windows</name>
+                    <title>maximized the windows</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663933031235' status='broken' stop='1663933084678'>
+                            <name>Lanch the ='https://www.surveymonkey.com/' -URL open</name>
+                            <title>Lanch the ='https://www.surveymonkey.com/' -URL open</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1663933034012' status='broken' stop='1663933084678'>
+                                    <name>Valid Login and password</name>
+                                    <title>Valid Login and password</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1663933042325' status='broken' stop='1663933084678'>
+                                            <name>User click on the Create Survey button</name>
+                                            <title>User click on the Create Survey button</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1663933054897' status='broken' stop='1663933084678'>
+                                                    <name>Create a new survey logo is display</name>
+                                                    <title>Create a new survey logo is display</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1663933056321' status='broken' stop='1663933084678'>
+                                                            <name>click on 'Start from scratch'</name>
+                                                            <title>click on 'Start from scratch'</title>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1663933056612' status='broken' stop='1663933084678'>
+                                                                    <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
+                                                                    <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1663933057831' status='broken' stop='1663933084678'>
+                                                                            <name>Add the page title</name>
+                                                                            <title>Add the page title</title>
+                                                                            <attachments>
+                                                                                <attachment title='Screenshot' source='423bd2a0-c88f-4677-9b6a-fe0138529540-attachment.png' type='image/png' size='97435'/>
+                                                                            </attachments>
+                                                                            <steps/>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663933084680' status='undefined'>
+                    <name>Refresh page</name>
+                    <title>Refresh page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663933090425' status='undefined'>
+                            <name>Delete Surevy</name>
+                            <title>Delete Surevy</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element (".pageTitleLabel") still not displayed after 10000ms</message>
+                <stack-trace>Error: element (".pageTitleLabel") still not displayed after 10000ms
+                    at D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at PageTitle.titleAddForPage (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\Modal\/PageTitle.js:61:5)
+                    at PageRandomized.newQuestion (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\Modal\/PageRandomized.js:68:9)
+                    at Context.&lt;anonymous> (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\TestCase\/PageRandomization.js:32:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
