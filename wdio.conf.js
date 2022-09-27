@@ -27,6 +27,12 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    suites:{
+        newElement:[
+            './test/TestCase/AddLogo.js',
+            './test/TestCase/StarTypesQuestion.js'
+        ]
+    },
     //
     // ============
     // Capabilities

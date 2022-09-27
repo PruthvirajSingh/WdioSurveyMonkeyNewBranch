@@ -1,24 +1,24 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664268995865' stop='1664269228141'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664273249469' stop='1664273468445'>
     <name>Add Star rating type question</name>
     <title>Add Star rating type question</title>
     <test-cases>
-        <test-case start='1664268995865' status='passed' stop='1664269064448'>
+        <test-case start='1664273249471' status='passed' stop='1664273320002'>
             <name>Verify that user able to add the star question</name>
             <title>Verify that user able to add the star question</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
@@ -27,57 +27,57 @@
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
             </parameters>
             <steps>
-                <step start='1664268995867' status='undefined'>
+                <step start='1664273249472' status='undefined'>
                     <name>maximized the windows</name>
                     <title>maximized the windows</title>
                     <attachments/>
                     <steps>
-                        <step start='1664268996110' status='undefined'>
+                        <step start='1664273249607' status='undefined'>
                             <name>Lanch the ='https://www.surveymonkey.com/' -URL open</name>
                             <title>Lanch the ='https://www.surveymonkey.com/' -URL open</title>
                             <attachments/>
                             <steps>
-                                <step start='1664269006211' status='undefined'>
+                                <step start='1664273253607' status='undefined'>
                                     <name>Valid Login and password</name>
                                     <title>Valid Login and password</title>
                                     <attachments/>
                                     <steps>
-                                        <step start='1664269017348' status='undefined'>
+                                        <step start='1664273265163' status='undefined'>
                                             <name>User click on the Create Survey button</name>
                                             <title>User click on the Create Survey button</title>
                                             <attachments/>
                                             <steps>
-                                                <step start='1664269034095' status='undefined'>
+                                                <step start='1664273279386' status='undefined'>
                                                     <name>Create a new survey logo is display</name>
                                                     <title>Create a new survey logo is display</title>
                                                     <attachments/>
                                                     <steps>
-                                                        <step start='1664269035644' status='undefined'>
+                                                        <step start='1664273280862' status='undefined'>
                                                             <name>click on 'Start from scratch'</name>
                                                             <title>click on 'Start from scratch'</title>
                                                             <attachments/>
                                                             <steps>
-                                                                <step start='1664269035717' status='undefined'>
+                                                                <step start='1664273280955' status='undefined'>
                                                                     <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
                                                                     <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
                                                                     <attachments/>
                                                                     <steps>
-                                                                        <step start='1664269037381' status='undefined'>
+                                                                        <step start='1664273283028' status='undefined'>
                                                                             <name>Drag and drop Star type question</name>
                                                                             <title>Drag and drop Star type question</title>
                                                                             <attachments/>
                                                                             <steps>
-                                                                                <step start='1664269045133' status='undefined'>
+                                                                                <step start='1664273297998' status='undefined'>
                                                                                     <name>Add question label and save it</name>
                                                                                     <title>Add question label and save it</title>
                                                                                     <attachments/>
                                                                                     <steps>
-                                                                                        <step start='1664269051874' status='undefined'>
+                                                                                        <step start='1664273305829' status='undefined'>
                                                                                             <name>Refresh page</name>
                                                                                             <title>Refresh page</title>
                                                                                             <attachments/>
                                                                                             <steps>
-                                                                                                <step start='1664269058486' status='undefined'>
+                                                                                                <step start='1664273311645' status='undefined'>
                                                                                                     <name>Delete Surevy</name>
                                                                                                     <title>Delete Surevy</title>
                                                                                                     <attachments/>
@@ -106,19 +106,19 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1664269064449' status='passed' stop='1664269093340'>
+        <test-case start='1664273320002' status='passed' stop='1664273354249'>
             <name>Verify that user Add rating label</name>
             <title>Verify that user Add rating label</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
@@ -126,42 +126,42 @@
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
             </parameters>
             <steps>
-                <step start='1664269064450' status='undefined'>
+                <step start='1664273320003' status='undefined'>
                     <name>User click on the Create Survey button</name>
                     <title>User click on the Create Survey button</title>
                     <attachments/>
                     <steps>
-                        <step start='1664269066910' status='undefined'>
+                        <step start='1664273323246' status='undefined'>
                             <name>Create a new survey logo is display</name>
                             <title>Create a new survey logo is display</title>
                             <attachments/>
                             <steps>
-                                <step start='1664269068383' status='undefined'>
+                                <step start='1664273324879' status='undefined'>
                                     <name>click on 'Start from scratch'</name>
                                     <title>click on 'Start from scratch'</title>
                                     <attachments/>
                                     <steps>
-                                        <step start='1664269068438' status='undefined'>
+                                        <step start='1664273324992' status='undefined'>
                                             <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
                                             <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
                                             <attachments/>
                                             <steps>
-                                                <step start='1664269069518' status='undefined'>
+                                                <step start='1664273326701' status='undefined'>
                                                     <name>Drag and drop Star type question</name>
                                                     <title>Drag and drop Star type question</title>
                                                     <attachments/>
                                                     <steps>
-                                                        <step start='1664269076663' status='undefined'>
+                                                        <step start='1664273335768' status='undefined'>
                                                             <name>Positive test case-Add question and Add rating label and verfiy weight text is display or not</name>
                                                             <title>Positive test case-Add question and Add rating label and verfiy weight text is display or not</title>
                                                             <attachments/>
                                                             <steps>
-                                                                <step start='1664269081789' status='undefined'>
+                                                                <step start='1664273340805' status='undefined'>
                                                                     <name>Refresh page</name>
                                                                     <title>Refresh page</title>
                                                                     <attachments/>
                                                                     <steps>
-                                                                        <step start='1664269089634' status='undefined'>
+                                                                        <step start='1664273348133' status='undefined'>
                                                                             <name>Delete Surevy</name>
                                                                             <title>Delete Surevy</title>
                                                                             <attachments/>
@@ -184,19 +184,19 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1664269093341' status='passed' stop='1664269125868'>
+        <test-case start='1664273354250' status='passed' stop='1664273384677'>
             <name>Verify that user able to add star type with rating label</name>
             <title>Verify that user able to add star type with rating label</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
@@ -204,42 +204,42 @@
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
             </parameters>
             <steps>
-                <step start='1664269093342' status='undefined'>
+                <step start='1664273354250' status='undefined'>
                     <name>User click on the Create Survey button</name>
                     <title>User click on the Create Survey button</title>
                     <attachments/>
                     <steps>
-                        <step start='1664269095564' status='undefined'>
+                        <step start='1664273357561' status='undefined'>
                             <name>Create a new survey logo is display</name>
                             <title>Create a new survey logo is display</title>
                             <attachments/>
                             <steps>
-                                <step start='1664269097215' status='undefined'>
+                                <step start='1664273358976' status='undefined'>
                                     <name>click on 'Start from scratch'</name>
                                     <title>click on 'Start from scratch'</title>
                                     <attachments/>
                                     <steps>
-                                        <step start='1664269097273' status='undefined'>
+                                        <step start='1664273359055' status='undefined'>
                                             <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
                                             <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
                                             <attachments/>
                                             <steps>
-                                                <step start='1664269098440' status='undefined'>
+                                                <step start='1664273360281' status='undefined'>
                                                     <name>Drag and drop Star type question</name>
                                                     <title>Drag and drop Star type question</title>
                                                     <attachments/>
                                                     <steps>
-                                                        <step start='1664269105863' status='undefined'>
+                                                        <step start='1664273366922' status='undefined'>
                                                             <name>Positive test case-Add question and Add rating label and verfiy it added or not after save</name>
                                                             <title>Positive test case-Add question and Add rating label and verfiy it added or not after save</title>
                                                             <attachments/>
                                                             <steps>
-                                                                <step start='1664269115621' status='undefined'>
+                                                                <step start='1664273376759' status='undefined'>
                                                                     <name>Refresh page</name>
                                                                     <title>Refresh page</title>
                                                                     <attachments/>
                                                                     <steps>
-                                                                        <step start='1664269121251' status='undefined'>
+                                                                        <step start='1664273380878' status='undefined'>
                                                                             <name>Delete Surevy</name>
                                                                             <title>Delete Surevy</title>
                                                                             <attachments/>
@@ -262,19 +262,19 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1664269125869' status='passed' stop='1664269153679'>
+        <test-case start='1664273384677' status='passed' stop='1664273412423'>
             <name>Verify that user able to add question with Scale Changes and colour shape Test</name>
             <title>Verify that user able to add question with Scale Changes and colour shape Test</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
@@ -282,42 +282,42 @@
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
             </parameters>
             <steps>
-                <step start='1664269125870' status='undefined'>
+                <step start='1664273384677' status='undefined'>
                     <name>User click on the Create Survey button</name>
                     <title>User click on the Create Survey button</title>
                     <attachments/>
                     <steps>
-                        <step start='1664269129263' status='undefined'>
+                        <step start='1664273386831' status='undefined'>
                             <name>Create a new survey logo is display</name>
                             <title>Create a new survey logo is display</title>
                             <attachments/>
                             <steps>
-                                <step start='1664269130358' status='undefined'>
+                                <step start='1664273388821' status='undefined'>
                                     <name>click on 'Start from scratch'</name>
                                     <title>click on 'Start from scratch'</title>
                                     <attachments/>
                                     <steps>
-                                        <step start='1664269130403' status='undefined'>
+                                        <step start='1664273388860' status='undefined'>
                                             <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
                                             <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
                                             <attachments/>
                                             <steps>
-                                                <step start='1664269131547' status='undefined'>
+                                                <step start='1664273389934' status='undefined'>
                                                     <name>Drag and drop Star type question</name>
                                                     <title>Drag and drop Star type question</title>
                                                     <attachments/>
                                                     <steps>
-                                                        <step start='1664269138384' status='undefined'>
+                                                        <step start='1664273396804' status='undefined'>
                                                             <name>Add question and changes the scale emoji and colour and Apply asseration for the scale validation</name>
                                                             <title>Add question and changes the scale emoji and colour and Apply asseration for the scale validation</title>
                                                             <attachments/>
                                                             <steps>
-                                                                <step start='1664269145411' status='undefined'>
+                                                                <step start='1664273404214' status='undefined'>
                                                                     <name>Refresh page</name>
                                                                     <title>Refresh page</title>
                                                                     <attachments/>
                                                                     <steps>
-                                                                        <step start='1664269149774' status='undefined'>
+                                                                        <step start='1664273408064' status='undefined'>
                                                                             <name>Delete Surevy</name>
                                                                             <title>Delete Surevy</title>
                                                                             <attachments/>
@@ -340,19 +340,19 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1664269153679' status='passed' stop='1664269185759'>
+        <test-case start='1664273412425' status='passed' stop='1664273441756'>
             <name>Verify that user able to Add an other options or comment</name>
             <title>Verify that user able to Add an other options or comment</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
@@ -360,42 +360,42 @@
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
             </parameters>
             <steps>
-                <step start='1664269153679' status='undefined'>
+                <step start='1664273412428' status='undefined'>
                     <name>User click on the Create Survey button</name>
                     <title>User click on the Create Survey button</title>
                     <attachments/>
                     <steps>
-                        <step start='1664269158073' status='undefined'>
+                        <step start='1664273414650' status='undefined'>
                             <name>Create a new survey logo is display</name>
                             <title>Create a new survey logo is display</title>
                             <attachments/>
                             <steps>
-                                <step start='1664269160211' status='undefined'>
+                                <step start='1664273416136' status='undefined'>
                                     <name>click on 'Start from scratch'</name>
                                     <title>click on 'Start from scratch'</title>
                                     <attachments/>
                                     <steps>
-                                        <step start='1664269160254' status='undefined'>
+                                        <step start='1664273416186' status='undefined'>
                                             <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
                                             <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
                                             <attachments/>
                                             <steps>
-                                                <step start='1664269161319' status='undefined'>
+                                                <step start='1664273417355' status='undefined'>
                                                     <name>Drag and drop Star type question</name>
                                                     <title>Drag and drop Star type question</title>
                                                     <attachments/>
                                                     <steps>
-                                                        <step start='1664269169722' status='undefined'>
+                                                        <step start='1664273423891' status='undefined'>
                                                             <name>Apply the comment on the star question with label and check label is added or not</name>
                                                             <title>Apply the comment on the star question with label and check label is added or not</title>
                                                             <attachments/>
                                                             <steps>
-                                                                <step start='1664269176063' status='undefined'>
+                                                                <step start='1664273432947' status='undefined'>
                                                                     <name>Refresh page</name>
                                                                     <title>Refresh page</title>
                                                                     <attachments/>
                                                                     <steps>
-                                                                        <step start='1664269181322' status='undefined'>
+                                                                        <step start='1664273437433' status='undefined'>
                                                                             <name>Delete Surevy</name>
                                                                             <title>Delete Surevy</title>
                                                                             <attachments/>
@@ -418,19 +418,19 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1664269185760' status='broken' stop='1664269228140'>
+        <test-case start='1664273441756' status='passed' stop='1664273468443'>
             <name>Verify that question save without any question label the error is displayed</name>
             <title>Verify that question save without any question label the error is displayed</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
@@ -438,38 +438,50 @@
                 <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
             </parameters>
             <steps>
-                <step start='1664269185760' status='broken' stop='1664269217944'>
+                <step start='1664273441756' status='undefined'>
                     <name>User click on the Create Survey button</name>
                     <title>User click on the Create Survey button</title>
                     <attachments/>
                     <steps>
-                        <step start='1664269188219' status='broken' stop='1664269217944'>
+                        <step start='1664273444929' status='undefined'>
                             <name>Create a new survey logo is display</name>
                             <title>Create a new survey logo is display</title>
                             <attachments/>
                             <steps>
-                                <step start='1664269189592' status='broken' stop='1664269217944'>
+                                <step start='1664273446410' status='undefined'>
                                     <name>click on 'Start from scratch'</name>
                                     <title>click on 'Start from scratch'</title>
                                     <attachments/>
                                     <steps>
-                                        <step start='1664269189649' status='broken' stop='1664269217944'>
+                                        <step start='1664273446461' status='undefined'>
                                             <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
                                             <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
                                             <attachments/>
                                             <steps>
-                                                <step start='1664269190783' status='broken' stop='1664269217944'>
+                                                <step start='1664273447613' status='undefined'>
                                                     <name>Drag and drop Star type question</name>
                                                     <title>Drag and drop Star type question</title>
                                                     <attachments/>
                                                     <steps>
-                                                        <step start='1664269197157' status='broken' stop='1664269217944'>
+                                                        <step start='1664273454757' status='undefined'>
                                                             <name>Negative testing-Check the error message is display or not after without question save</name>
                                                             <title>Negative testing-Check the error message is display or not after without question save</title>
-                                                            <attachments>
-                                                                <attachment title='Screenshot' source='8ad7b03e-bf25-4fe0-a116-fbe76782dda1-attachment.png' type='image/png' size='103580'/>
-                                                            </attachments>
-                                                            <steps/>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1664273459980' status='undefined'>
+                                                                    <name>Refresh page</name>
+                                                                    <title>Refresh page</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1664273464500' status='undefined'>
+                                                                            <name>Delete Surevy</name>
+                                                                            <title>Delete Surevy</title>
+                                                                            <attachments/>
+                                                                            <steps/>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
                                                         </step>
                                                     </steps>
                                                 </step>
@@ -481,35 +493,8 @@
                         </step>
                     </steps>
                 </step>
-                <step start='1664269217948' status='undefined'>
-                    <name>Refresh page</name>
-                    <title>Refresh page</title>
-                    <attachments/>
-                    <steps>
-                        <step start='1664269223320' status='undefined'>
-                            <name>Delete Surevy</name>
-                            <title>Delete Surevy</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
             </steps>
             <attachments/>
-            <failure>
-                <message>element ("(//a[text()='SAVE'])[8]") still not clickable after 10000ms</message>
-                <stack-trace>Error: element ("(//a[text()='SAVE'])[8]") still not clickable after 10000ms
-                    at D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
-                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
-                    at Element.elementErrorHandlerCallbackFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\middlewares.js:24:32)
-                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
-                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
-                    at Element.elementErrorHandlerCallbackFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\middlewares.js:24:32)
-                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
-                    at Utility2.performClick (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\Utility\/Utility2.js:4:9)
-                    at StarType.negativeTest (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\Modal\/StarTypes.js:119:13)
-                    at Context.&lt;anonymous> (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\TestCase\/StarTypesQuestion.js:58:28)</stack-trace>
-            </failure>
         </test-case>
     </test-cases>
 </ns2:test-suite>

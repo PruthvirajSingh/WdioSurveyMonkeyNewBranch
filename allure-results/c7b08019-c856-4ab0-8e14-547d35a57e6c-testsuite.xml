@@ -1,0 +1,196 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664273249244' stop='1664273354396'>
+    <name>verify that user is able to add logo from computer</name>
+    <title>verify that user is able to add logo from computer</title>
+    <test-cases>
+        <test-case start='1664273249246' status='broken' stop='1664273313962'>
+            <name>Verfiy that when the user add logo below 2 mb its should be accepted</name>
+            <title>Verfiy that when the user add logo below 2 mb its should be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664273249249' status='broken' stop='1664273296740'>
+                    <name>maximized the windows</name>
+                    <title>maximized the windows</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664273249544' status='broken' stop='1664273296740'>
+                            <name>Lanch the ='https://www.surveymonkey.com/' -URL open</name>
+                            <title>Lanch the ='https://www.surveymonkey.com/' -URL open</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1664273255984' status='broken' stop='1664273296740'>
+                                    <name>Valid Login and password</name>
+                                    <title>Valid Login and password</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1664273267367' status='broken' stop='1664273296740'>
+                                            <name>User click on the Create Survey button</name>
+                                            <title>User click on the Create Survey button</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1664273282421' status='broken' stop='1664273296740'>
+                                                    <name>Create a new survey logo is display</name>
+                                                    <title>Create a new survey logo is display</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1664273284294' status='broken' stop='1664273296740'>
+                                                            <name>click on 'Start from scratch'</name>
+                                                            <title>click on 'Start from scratch'</title>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1664273284379' status='broken' stop='1664273296740'>
+                                                                    <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
+                                                                    <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1664273285983' status='broken' stop='1664273296740'>
+                                                                            <name>Click on the logo verify that 'Drag and drop a file here.' pop up displayed upload image</name>
+                                                                            <title>Click on the logo verify that 'Drag and drop a file here.' pop up displayed upload image</title>
+                                                                            <attachments>
+                                                                                <attachment title='Screenshot' source='64d0e4b0-7c98-4d72-a91b-22092ad38929-attachment.png' type='image/png' size='97112'/>
+                                                                            </attachments>
+                                                                            <steps/>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1664273296742' status='undefined'>
+                    <name>Refresh page</name>
+                    <title>Refresh page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664273304791' status='undefined'>
+                            <name>Delete Surevy</name>
+                            <title>Delete Surevy</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("//span[contains(@class,'add-l')]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("//span[contains(@class,'add-l')]") still not clickable after 10000ms
+                    at D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Utility2.performClick (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\Utility\/Utility2.js:4:9)
+                    at Logo.addLogo (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\Modal\/LogoAdd.js:37:5)
+                    at Context.&lt;anonymous> (D:\MyServeyMonekyStartFromScrachTestCase\NewTestCases\test\TestCase\/AddLogo.js:20:36)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664273313962' status='passed' stop='1664273354395'>
+            <name>Verfiy that when the user add logo above 2 mb error should be displayed</name>
+            <title>Verfiy that when the user add logo above 2 mb error should be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664273313962' status='undefined'>
+                    <name>User click on the Create Survey button</name>
+                    <title>User click on the Create Survey button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1664273317440' status='undefined'>
+                            <name>Create a new survey logo is display</name>
+                            <title>Create a new survey logo is display</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1664273319740' status='undefined'>
+                                    <name>click on 'Start from scratch'</name>
+                                    <title>click on 'Start from scratch'</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1664273319915' status='undefined'>
+                                            <name>User after click start from scatch able redirect to 'Name your survey' pop up</name>
+                                            <title>User after click start from scatch able redirect to 'Name your survey' pop up</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1664273321942' status='undefined'>
+                                                    <name>Click on the logo verify that 'Drag and drop a file here.' pop up displayed</name>
+                                                    <title>Click on the logo verify that 'Drag and drop a file here.' pop up displayed</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1664273338520' status='undefined'>
+                                                            <name> Validate that upload image more than 2mb error is displayed</name>
+                                                            <title> Validate that upload image more than 2mb error is displayed</title>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1664273338523' status='undefined'>
+                                                                    <name>Refresh page</name>
+                                                                    <title>Refresh page</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1664273347144' status='undefined'>
+                                                                            <name>Delete Surevy</name>
+                                                                            <title>Delete Surevy</title>
+                                                                            <attachments/>
+                                                                            <steps/>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
