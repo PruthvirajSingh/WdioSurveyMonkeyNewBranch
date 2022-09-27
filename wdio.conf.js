@@ -136,7 +136,11 @@ exports.config = {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: false,
-    }]],
+    }],
+    ['junit', {
+        outputDir: './reports'
+    }]
+    ],
     // ...
     afterTest: async function (test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
