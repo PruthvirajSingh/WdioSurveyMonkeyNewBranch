@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js --spec",
+    "test": "npx wdio",
     "start-jenkins-server": "java -jar jenkins.war -httpPort=8080 --enable-future"
     
   },
