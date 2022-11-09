@@ -1,0 +1,13 @@
+name: CINAME
+on: [push] 
+jobs:
+  simple-git-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simple Js Actions
+        id: greet
+        uses: PruthvirajSingh/NEWCICDBRACH@v1
+        with:
+          who-to-greet: pruthviraj
+      - name: Log Gretting Time
+        run: echo "${{ steps.greet.outputs.time }}"
